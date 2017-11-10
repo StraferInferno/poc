@@ -1,0 +1,137 @@
+body {
+  background: #eee !important;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper{
+  width: 1170px;
+  padding: 0 0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.card-container{
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 25px;
+}
+.card-body{
+  padding: 20px;
+}
+
+.card-header{
+  text-align: center;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-style{
+  height: 90vh;
+  background: #2b848e;
+  top: 25px;
+}
+
+.example-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.example-container > * {
+  width: 100%;
+}
+
+.bg-wrapper{
+  background-image:  url("https://www.foodcraftinstitute.org/wp-content/uploads/2017/08/ERF-jars.jpg");
+}
+
+
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  width: 100%;
+}
+
+.inner-card{
+  height: 72vh;
+  background: #fff;
+  top: 3em;
+  margin: 0 auto;
+  width: 37vw;
+}
+
+.form-container{
+  margin: auto;
+}
+
+section.header{
+  position: relative;
+  top: 2em;
+  color: #fff;
+  text-align: center;
+}
+
+.span-validation{
+  margin-top: 3px;
+  margin-left: 4px;
+}
+
+
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #FFF;
+
+  margin: 0px auto;
+  -webkit-animation: sk-rotateplane 1.2s infinite ease-in-out;
+  animation: sk-rotateplane 1.2s infinite ease-in-out;
+}
+
+@-webkit-keyframes sk-rotateplane {
+  0% { -webkit-transform: perspective(120px) }
+  50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+  100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+}
+
+@keyframes sk-rotateplane {
+  0% {
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg)
+  } 50% {
+      transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+      -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg)
+    } 100% {
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      }
+}
+
+@media only screen
+and (min-width : 1224px) {
+  /* STYLES GO HERE */
+}
+
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+  .inner-card {
+    height: 55vh;
+    background: #fff;
+    top: 3em;
+    margin: 0 auto;
+    width: 29vw;
+  }
+
+  .card-style{
+    height: 85vh;
+  }
+
+}

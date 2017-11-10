@@ -1,0 +1,46 @@
+/* My header*/
+
+.navbar-container{
+  background: lightblue;
+  height: 72px;
+  border: 0px;
+  border-radius: 0px;
+}
+
+.wrapper {
+  width: 100%;
+  height:auto;
+  padding: 0 0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.search{
+  margin: 0px 10px;
+}
+
+
+.parent-wrapper{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height:auto;
+  padding: 0 0px;
+  margin: 0 auto;
+  position: relative;
+}
+.child-wrapper{
+  flex-grow: 1;
+}
+
+.child-left{
+  text-align: left;
+}
+
+.child-right{
+  text-align: right;
+}
+
+.child-center{
+  text-align: center;
+}

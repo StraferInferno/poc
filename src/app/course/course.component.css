@@ -1,0 +1,55 @@
+.max-wrapper {
+  width: 1440px;
+  max-width:100%;
+  padding: 0 0px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.card-component {
+  width: 35%;
+  height: auto;
+  background-color: #4ee2c0;
+  padding: 20px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  border-radius: 5px;
+}
+
+.notification-wrapper{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-text{
+  color: midnightblue;
+  font-weight: 700;
+}
+
+div.welcome-text h1{
+  color: #FFF;
+}
+
+.detail-card {
+  padding-right: 25%;
+}
+
+div.direction-card{
+  padding-top: 18px;
+}
+
+div.direction-card a {
+  color: midnightblue;
+  border: 2px solid midnightblue;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+div.direction-card a:hover{
+  color: midnightblue;
+  border: 2px solid midnightblue;
+
+}
